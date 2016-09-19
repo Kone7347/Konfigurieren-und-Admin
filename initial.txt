@@ -1,0 +1,32 @@
+Funktion:
+- git ist eine Versionsverwaltung, ermöglicht also auf frühere Versionsstände einer Datei zuzugreifen
+- git wird in der Softwareentwicklung immer verwendet
+- git ermöglicht komfortabel das Arbeiten mehrerer Personen an einem Projekt
+
+Webseite: github.com
+		- eigene Projekte können hier abgelegt werden
+		- projekte anderer Personen stehen hier zu Ansicht zur Verfügung
+
+
+
+Erstellen eines lokalen Repositorys:
+1. ordner erstellen
+	mkdir EuP
+2. Ordner mit git initialisieren
+	git init
+3. datei erzeugen zum Testen
+	touch test.txt
+4. Datei zum Repo hinzufügen
+	git add . -A
+5. datei commiten
+	git commit -am "first commit"
+6. Das lokale Repos mit dem Remote Repos verbinden
+	git remote add origin https://github.com/Kone7347/EuP.git
+7. Die lokalen Aenderungen zum Remote Repos hochladen
+	git push -u origin master
+
+Aktualisieren eines Projektes
+1. mit cd in das Basis Verzeichnis des Projektes gehen
+2. git add . -A
+3. git commit - am 'Kommentar zur Charakterisierung'
+4. git pust origin master
