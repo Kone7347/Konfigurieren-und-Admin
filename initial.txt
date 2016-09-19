@@ -30,3 +30,5 @@ Aktualisieren eines Projektes
 2. git add . -A
 3. git commit - am 'Kommentar zur Charakterisierung'
 4. git pust origin master
+
+test
